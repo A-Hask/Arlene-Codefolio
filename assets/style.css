@@ -1,0 +1,44 @@
+:root {
+    --primary-color: rgb( 240, 248, 255);
+    --secondary-color: rgb(52, 34, 133);
+}
+
+* {
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+.welcome ul {
+    display: inline;
+    list-style: none;
+}
+
+h1, h2, h3, h4 {
+    color: rgb(52, 34, 133);
+}
+
+span {
+    font-size: medium;
+}
+
+.projects {
+    text-align: center;
+}
+
+.button {
+    border: 2px solid var(--secondary-color);
+    background:rgb(52, 34, 133);
+    color: white;
+    border-radius: 5px
+}
+
+.project-img {
+   max-width: 50%;
+   max-height: 50%;
+   text-align: center;
+}
+
+.contact {
+    /* make pretty */
+        text-align: center;
+}
