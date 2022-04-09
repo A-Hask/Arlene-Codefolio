@@ -3,16 +3,19 @@
     --primary-color: rgb( 240, 248, 255);
     --secondary-color: rgb(52, 34, 133);
 }
+
  /* background color applies to entire page*/
 * {
     background-color: var(--primary-color);
     color: var(--secondary-color);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h2 {
     text-align: center;
     border: 2px solid var(--secondary-color);
     background-color: var(--secondary-color);
-    color:rgb( 240, 248, 255)
+    color:rgb( 240, 248, 255);
+    font-style: oblique;
 }
 
 /* Header/Nav*/
@@ -20,7 +23,7 @@ h2 {
     display: inline;
     list-style: none;
     font-weight: bold;
-    text-align: center;
+    text-align: right;
 }
 .bio {
     text-align: center;
@@ -47,9 +50,10 @@ button {
    text-align: center;
 }
 
-
 /*footer*/
 .contact {
-    /* make pretty */
-        text-align: center;
+    text-align: center;
+}
+span{
+    text-decoration: underline;
 }
