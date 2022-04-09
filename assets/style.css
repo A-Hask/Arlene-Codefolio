@@ -3,17 +3,30 @@
     --primary-color: rgb( 240, 248, 255);
     --secondary-color: rgb(52, 34, 133);
 }
-
+ /* background color applies to entire page*/
 * {
     background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
-/* Header*/
+h2 {
+    text-align: center;
+    border: 2px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    color:rgb( 240, 248, 255)
+}
+
+/* Header/Nav*/
 .welcome ul {
     display: inline;
     list-style: none;
     font-weight: bold;
+    text-align: center;
+}
+.bio {
+    text-align: center;
 }
 
+/*button style*/
 button {
     background-color: var(--secondary-color);
     color: var(--primary-color);
@@ -21,27 +34,21 @@ button {
     background:rgb(52, 34, 133);
     color: white;
     border-radius: 5px;
-
-}
-
-h1, h2, h3, h4 {
-    color: rgb(52, 34, 133);
-}
-
-span {
-    font-size: medium;
-}
-
-.projects {
     text-align: center;
 }
 
+/*body section*/
+.projects {
+    text-align: center;
+}
 .project-img {
-   max-width: 50%;
-   max-height: 50%;
+   width: 25%;
+   height: 25%;
    text-align: center;
 }
 
+
+/*footer*/
 .contact {
     /* make pretty */
         text-align: center;
