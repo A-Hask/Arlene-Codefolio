@@ -20,7 +20,7 @@ h2 {
 
 /* Header/Nav*/
 .welcome ul {
-    display: inline;
+    display: block;
     list-style: none;
     font-weight: bold;
     text-align: right;
@@ -44,9 +44,12 @@ button {
 .projects {
     text-align: center;
 }
+
 .project-img {
    width: 25%;
-   height: 25%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
    text-align: center;
 }
 
