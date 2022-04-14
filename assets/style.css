@@ -26,13 +26,14 @@ h2 {
 h1 {
     text-align: center
 }
+
 .welcome ul {
-    text-align: left;
     list-style: none;
     font-weight: bold;
     text-align: right;
     flex-wrap: wrap;
     align-items: right;
+    display: flex;
 }
 
 .selfie {
@@ -67,12 +68,12 @@ button {
     text-align: center;
     width: 100%;
     margin: 0 auto;
-    display: flex;
+    display: inline;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
- /* only applies to project 1*/
+/* only applies to project1*/
 .project1 {
     text-align: center;
 }
@@ -89,7 +90,7 @@ button {
     width: 25%;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
+    display: inline;
     flex-wrap: wrap;
 }
 
@@ -105,18 +106,24 @@ span {
 
 /*Media Query section*/
 @media screen and (max-width: 768px) {
-    .selfie, .project-img {
+
+    .selfie,
+    .project-img {
         width: 50%;
     }
+
     .project-img1 {
         width: 100%;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .selfie, .project-img {
+
+    .selfie,
+    .project-img {
         width: 75%;
     }
+
     .project-img1 {
         width: 100%;
     }
