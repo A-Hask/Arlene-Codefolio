@@ -1,37 +1,50 @@
 /* Root section contains color scheme*/
 :root {
-    --primary-color: rgb( 240, 248, 255);
+    --primary-color: rgb(240, 248, 255);
     --secondary-color: rgb(52, 34, 133);
 }
 
- /* background color applies to entire page*/
+/* these elements apply to entire page*/
 * {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
     text-align: center;
 }
 
+/*Body section titles*/
 h2 {
     text-align: center;
     border: 2px solid var(--secondary-color);
     background-color: var(--secondary-color);
-    color:var(--primary-color);
+    color: var(--primary-color);
     font-style: oblique;
 }
 
 /* Header/Nav*/
 .welcome ul {
-    display: block;
+    text-align: left;
+    display: inline;
     list-style: none;
     font-weight: bold;
-    text-align: center;
+    text-align: right;
+}
+
+header nav ul {
+    flex-wrap: wrap;
+    align-items: right;
+    flex-direction: row;
+    text-align: right;
 }
 
 .bio {
     text-align: center;
 }
+
 .selfie {
+    text-align: center;
     width: 25%
 }
 
@@ -40,7 +53,7 @@ button {
     background-color: var(--secondary-color);
     color: var(--primary-color);
     border: 2px solid var(--secondary-color);
-    background:var(--secondary-color);
+    background: var(--secondary-color);
     color: var(--primary-color);
     border-radius: 5px;
     text-align: center;
@@ -49,8 +62,11 @@ button {
 /*body section*/
 .projects {
     text-align: center;
+    width: 100%;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .project-img1 {
@@ -58,13 +74,13 @@ button {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
- }
- 
+}
+
 .project-img {
-   width: 25%;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: center;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 
 }
 
@@ -74,6 +90,13 @@ button {
     text-align: center;
 }
 
-span{
+span {
     text-decoration: underline;
 }
+
+/*Media Query section adds responsiveness*/
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 320px) {}
