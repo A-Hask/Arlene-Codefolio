@@ -53,6 +53,16 @@ button {
 }
 
 /*body section*/
+.bio {
+    text-align: center;
+}
+
+.selfie {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .projects {
     text-align: center;
     width: 100%;
@@ -61,6 +71,8 @@ button {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+ /* only applies to project 1*/
 .project1 {
     text-align: center;
 }
@@ -72,11 +84,13 @@ button {
     text-align: center;
 }
 
+/*applies to all other projects*/
 .project-img {
     width: 25%;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -89,15 +103,22 @@ span {
     text-decoration: underline;
 }
 
-/*Media Query section adds responsiveness*/
-@media screen and (max-width: 1024px) {
-
-}
-
+/*Media Query section*/
 @media screen and (max-width: 768px) {
-
+    .selfie, .project-img {
+        width: 50%;
+    }
+    .project-img1 {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 320px) {
+    .selfie, .project-img {
+        width: 75%;
+    }
+    .project-img1 {
+        width: 100%;
+    }
 
 }
