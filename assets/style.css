@@ -24,16 +24,16 @@ h2 {
 
 /* Header/Nav*/
 h1 {
-    text-align: center
+    text-align: center;
+    font-style: oblique;
 }
 
 .welcome ul {
     list-style: none;
     font-weight: bold;
-    text-align: right;
     flex-wrap: wrap;
-    align-items: right;
     display: flex;
+    justify-content: flex-end;
 }
 
 .selfie {
