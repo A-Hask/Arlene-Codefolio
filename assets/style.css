@@ -9,9 +9,8 @@
     background-color: var(--primary-color);
     color: var(--secondary-color);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 0;
+    margin: 2px;
     padding: 0;
-    text-align: center;
 }
 
 /*Body section titles*/
@@ -24,28 +23,22 @@ h2 {
 }
 
 /* Header/Nav*/
+h1 {
+    text-align: center
+}
 .welcome ul {
     text-align: left;
-    display: inline;
     list-style: none;
     font-weight: bold;
     text-align: right;
-}
-
-header nav ul {
     flex-wrap: wrap;
     align-items: right;
-    flex-direction: row;
-    text-align: right;
-}
-
-.bio {
-    text-align: center;
 }
 
 .selfie {
-    text-align: center;
-    width: 25%
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*button style*/
@@ -68,6 +61,9 @@ button {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.project1 {
+    text-align: center;
+}
 
 .project-img1 {
     width: 75%;
@@ -81,7 +77,6 @@ button {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-
 }
 
 
@@ -95,8 +90,14 @@ span {
 }
 
 /*Media Query section adds responsiveness*/
-@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 1024px) {
 
-@media screen and (max-width: 768px) {}
+}
 
-@media screen and (max-width: 320px) {}
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 320px) {
+
+}
