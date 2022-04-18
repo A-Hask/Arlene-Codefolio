@@ -1,4 +1,4 @@
-﻿# Challenge-2-Personal-Portfolio
+﻿# Arlene's "Code"folio
 **Description**
 <br/>
 The purpose of this website is to showcase the developer's coding ability.
