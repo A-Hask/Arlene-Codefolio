@@ -92,6 +92,7 @@ button {
     margin-right: auto;
     display: inline;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 
