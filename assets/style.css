@@ -38,8 +38,10 @@ h1 {
 
 .selfie {
     width: 25%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 50%;
+    margin-right: 50%;
+    padding-left: 50%;
+    padding-right: 50%;
 }
 
 /*button style*/
@@ -59,9 +61,10 @@ button {
 }
 
 .selfie {
-    width: 25%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 30%;
+    margin: auto;
+    padding-left: 35%;
+    display: inline;
 }
 
 .projects {
@@ -87,12 +90,10 @@ button {
 
 /*applies to all other projects*/
 .project-img {
-    width: 25%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 30%;
+    margin: auto;
+    padding-left: 35%;
     display: inline;
-    flex-wrap: wrap;
-    text-align: center;
 }
 
 
