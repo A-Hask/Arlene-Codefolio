@@ -55,6 +55,10 @@ button {
     text-align: center;
 }
 
+button:hover{
+    cursor: pointer;
+}
+
 /*body section*/
 .bio {
     text-align: center;
