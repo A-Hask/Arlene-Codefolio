@@ -13,6 +13,11 @@
     padding: 0;
 }
 
+/*project titles*/
+h3 {
+    text-align: center;
+}
+
 /*Body section titles*/
 h2 {
     text-align: center;
