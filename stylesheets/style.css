@@ -60,6 +60,12 @@ button {
     text-align: center;
 }
 
+.repo-link {
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 40%;
+}
+
 button:hover{
     cursor: pointer;
 }
