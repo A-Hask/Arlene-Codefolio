@@ -1,13 +1,68 @@
-﻿# Arlene's "Code"folio
+## Arlene's "Code"folio
 
-**Description**
-<br/>
-The purpose of this website is to showcase the developer's coding ability.
-<br/>
-Potential clients can go to this page to view examples of her work as well as find contact information.
-<br/>
-https://A-Hask.github.io/Arlene-Codefolio/
-<br/>
-![image](https://user-images.githubusercontent.com/93448964/163437940-60a6727f-02b7-415d-93e1-dd8553021452.png)
-<br/>
-![image](https://user-images.githubusercontent.com/93448964/163438008-3c762dbf-4e01-4bbc-92dc-a1ab2fba49eb.png)
+  ## Created by: Arlene Haskins
+
+  ## Github: A-Hask
+
+  ## Email: ahaskins93@yahoo.com
+  ________________________________________
+  
+  ## Description
+  
+  This project was created to showcase the developer's abilities.
+  
+
+![image](https://user-images.githubusercontent.com/93448964/180070231-286b4592-5451-4bd3-9538-7be3b27bea99.png)
+
+![image](https://user-images.githubusercontent.com/93448964/180070317-068d6f6c-25c2-409b-90f0-e2cdbc60367e.png)
+
+![image](https://user-images.githubusercontent.com/93448964/180070359-5b2554d8-4e94-4b56-a4dc-fd6acbf87c4f.png)
+  ________________________________________
+  
+  ## Table of Contents
+  
+  * [Installation Instructions](#installation-instructions)
+
+  * [Usage Information](#usage-information)
+
+  * [Contribution Guidelines](#contribution-guidelines)
+
+  * [Test Instructions](#test-instructions)
+
+  * [License or Licenses](#license-or-licenses)
+
+  ________________________________________
+
+  ## Installation Instructions
+
+  Visit the website to view: https://A-Hask.github.io/Arlene-Codefolio
+
+  ________________________________________
+
+  ## Usage Information
+
+  The user can see the titles and screenshots of various projects as well as click on the images to see the project in its entirety
+
+  ________________________________________
+
+  ## Contribution Guidelines
+
+  N/A
+
+  ________________________________________
+
+  ## Test Instructions
+
+  N/A
+
+  ________________________________________
+  ## License or Licenses
+
+  
+      This project is licensed through None.
+      
+
+   ![GitHub License](https://img.shields.io/badge/license-None-blue.svg)
+
+  
+
